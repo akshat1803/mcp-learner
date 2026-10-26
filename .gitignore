@@ -1,0 +1,5 @@
+node_modules/
+.env
+# runtime data created by the servers
+servers/03-notes/notes.json
+servers/07-placement-prep/progress.json

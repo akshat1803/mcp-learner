@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "mcp-learner-calculator": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/01-calculator/index.ts"]
+    },
+    "mcp-learner-fun": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/02-fun/index.ts"]
+    },
+    "mcp-learner-notes": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/03-notes/index.ts"]
+    },
+    "mcp-learner-attendance": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/04-attendance/index.ts"]
+    },
+    "mcp-learner-weather": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/05-weather/index.ts"]
+    },
+    "mcp-learner-github": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/06-github-profile/index.ts"],
+      "env": { "GITHUB_TOKEN": "optional-paste-your-token-here" }
+    },
+    "mcp-learner-placement": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/ABSOLUTE/PATH/TO/mcp-learner/servers/07-placement-prep/index.ts"]
+    }
+  }
+}

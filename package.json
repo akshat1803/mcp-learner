@@ -1,0 +1,46 @@
+{
+  "name": "mcp-learner",
+  "version": "1.0.0",
+  "description": "Learn MCP (Model Context Protocol) step by step: 8 small servers from Hello World to a remote HTTP server.",
+  "scripts": {
+    "calculator": "tsx servers/01-calculator/index.ts",
+    "inspect:calculator": "npx @modelcontextprotocol/inspector npx tsx servers/01-calculator/index.ts",
+    "fun": "tsx servers/02-fun/index.ts",
+    "inspect:fun": "npx @modelcontextprotocol/inspector npx tsx servers/02-fun/index.ts",
+    "notes": "tsx servers/03-notes/index.ts",
+    "inspect:notes": "npx @modelcontextprotocol/inspector npx tsx servers/03-notes/index.ts",
+    "attendance": "tsx servers/04-attendance/index.ts",
+    "inspect:attendance": "npx @modelcontextprotocol/inspector npx tsx servers/04-attendance/index.ts",
+    "weather": "tsx servers/05-weather/index.ts",
+    "inspect:weather": "npx @modelcontextprotocol/inspector npx tsx servers/05-weather/index.ts",
+    "github": "tsx servers/06-github-profile/index.ts",
+    "inspect:github": "npx @modelcontextprotocol/inspector npx tsx servers/06-github-profile/index.ts",
+    "placement": "tsx servers/07-placement-prep/index.ts",
+    "inspect:placement": "npx @modelcontextprotocol/inspector npx tsx servers/07-placement-prep/index.ts",
+    "remote": "tsx servers/08-remote-http/index.ts",
+    "try": "tsx scripts/try-all.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "tutorial",
+    "beginners"
+  ],
+  "author": "Akshat Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  }
+}
